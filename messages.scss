@@ -1,0 +1,25 @@
+body{
+    background: grey;
+}
+
+%message{
+    padding: 1rem;
+    margin: 20px;
+    border: 1px solid black;
+    font-size: bold;
+}
+
+#sucess{
+    @extend %message;
+    background-color: green;
+}
+
+#erro{
+    @extend %message;
+    background-color: red;
+}
+
+#warring{
+    @extend %message;
+    background-color: orange;
+}

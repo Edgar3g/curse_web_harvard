@@ -1,0 +1,19 @@
+body {
+  background: grey; }
+
+#sucess, #erro, #warring {
+  padding: 1rem;
+  margin: 20px;
+  border: 1px solid black;
+  font-size: bold; }
+
+#sucess {
+  background-color: green; }
+
+#erro {
+  background-color: red; }
+
+#warring {
+  background-color: orange; }
+
+/*# sourceMappingURL=message.css.map */
